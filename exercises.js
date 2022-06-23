@@ -141,7 +141,11 @@ function quadrupler (numb) {
 }
 
 
+// Function Exercise 3: Welcome message
+ function welcome () {
 
+    
+ }
 
 
 
