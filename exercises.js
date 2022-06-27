@@ -132,23 +132,101 @@ function greet () {
 greet();
 
 // Function Exercise 2: Quadrupler
-// I know this exercise doesn't work.
-function quadrupler (numb) {
+function quadrupler () {
 
-    quadrupler(5);
-    answerrr= quadrupler(5) * 4 ;
+    let numb= 5;
+    answerrr= numb * 4 ;
     console.log(answerrr);
 }
+quadrupler();
 
 
 // Function Exercise 3: Welcome message
- function welcome () {
+
+const fiName= "Asha";
+ const lasName= "Ainte,";
+ 
+
+ function welcomes () {
+    console.log('Hello', fiName.toLocaleLowerCase(), lasName.toLocaleUpperCase(),'how can I help you?');
+ }
+    welcomes();
+
+ 
+// Function Exercises 4: Temperature Converter
+  let farenheit = 70;
+  let celcius = (farenheit - 32) * 5/9;
+
+function temperatureConverter () {
+    console.log(celcius);
+}
+
+temperatureConverter();
+
+// Function Exercises 5: Dog years
+// I know my maths is not right here haha
+let myAgeIs= 33;
+let myNameIs= "Asha";
+
+// first year of dogs life is = 15 human years
+// second year of dogs life is = 9 human years
+// each year after that is = 5 human years
+
+let firstYear= myAgeIs - 15;
+let secondYear= firstYear -9 ;
+let afterThat= myAge - firstYear - secondYear / 5;
+let myDogAge= firstYear + secondYear -  afterThat;
+
+function dogYears() {
+console.log(myDogAge);
+}
+
+dogYears();
+
+
+// Function Exercises 6: Calculator
+// doesn't work for some reason
+
+para1= 100;
+para3= 50;
+calculators= para1 + para3;
+
+function calculators() {
+   
+    if (para1 + para3 === Number) {
+        console.log('this is a number');
+}
+
+else if (para1 + para3 === isNaN) {
+    console.log('please enter a number here');
+    
+}
+calculators();
+}
+
+
+// Function Exercise 7: Less than
+// not working so far
+// i gvive up
+
+
+// numberA= 30;
+// numberB= 50;
+
+// function min(){
+
+//     if (numberA > numberB);
+//     console.log(numberA);
+// }
+
+//     else {
+//     console.log('oops');
+//     }
+
+// else if (numberB > numberA);
+//    console.log(numberB);
 
     
- }
 
-
-
-
-
-
+// Function Exercise 8: to the power of
+// I dont understand this exercise to be honest, sorry 
